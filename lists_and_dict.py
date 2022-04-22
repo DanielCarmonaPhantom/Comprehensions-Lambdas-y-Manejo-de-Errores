@@ -7,16 +7,16 @@ def run():
 
     super_list = [
         {
-        'firtname': "Daniel",
-        'lastname': "Carmona"
+            'firtname': "Daniel",
+            'lastname': "Carmona"
         },
         {
-        'firtname': "Juan",
-        'lastname': "Modelo"
+            'firtname': "Juan",
+            'lastname': "Modelo"
         },
         {
-        'firtname': "Susan",
-        'lastname': "Hernandez"
+            'firtname': "Susan",
+            'lastname': "Hernandez"
         }
     ]
 
@@ -26,5 +26,11 @@ def run():
         "floating_nums": [1.1, 4,4, 6,78]
     }
 
-    if __name__ == '__main__':
-        run()
+    for key, value in super_dict.items():
+        print(key, " - ", value)
+    
+    for person in super_list:
+        print(person)
+
+if __name__ == '__main__':
+    run()
