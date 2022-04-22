@@ -158,6 +158,7 @@ pyvenv.cfg
 .venv
 pip-selfcheck.json
 venv
+venv/
 
 ### Windows ###
 # Windows thumbnail cache files
