@@ -1,0 +1,5 @@
+Se utiliza para activar el 
+
+source venv/bin/activate
+
+deactive
